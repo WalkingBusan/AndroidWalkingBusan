@@ -15,10 +15,11 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:textColor="#619CD6"
+        android:textColor="#673AB7"
         android:textSize="30sp"
         android:textStyle="bold"
-        android:text="PLAN TALK" />
+        android:text="부산 한 걸음"
+        android:fontFamily="@font/cookierunblack"/>
 
     <TextView
         android:layout_width="match_parent"
@@ -27,7 +28,8 @@
         android:gravity="center"
         android:textColor="#B4B4B4"
         android:textSize="16sp"
-        android:text="형식에 맞게 내용을 입력해주세요"/>
+        android:text="형식에 맞게 내용을 입력해주세요"
+        android:fontFamily="@font/cookierunblack"/>
 
     <EditText
         android:id="@+id/editUsername"
@@ -37,7 +39,8 @@
         android:padding="15dp"
         android:textSize="20sp"
         android:inputType="textPersonName"
-        android:hint="아이디를 입력해주세요"/>
+        android:hint="아이디를 입력해주세요"
+        android:fontFamily="@font/cookierunblack"/>
 
     <EditText
         android:id="@+id/editPassword"
@@ -46,8 +49,9 @@
         android:layout_marginBottom="25dp"
         android:padding="15dp"
         android:textSize="20sp"
-        android:hint="쉬운 비밀번호는 해킹당하기 쉽습니다"
-        android:inputType="textPassword" />
+        android:hint="영어/숫자를 이용하여 4자리이상 입력해주세요"
+        android:inputType="textPassword"
+        android:fontFamily="@font/cookierunblack"/>
 
     <EditText
         android:id="@+id/editNickname"
@@ -57,15 +61,17 @@
         android:padding="15dp"
         android:textSize="20sp"
         android:hint="이름을 입력해주세요"
-        android:inputType="textPersonName" />
+        android:inputType="textPersonName"
+        android:fontFamily="@font/cookierunblack"/>
 
     <Button
         android:id="@+id/registerBtn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:backgroundTint="#619CD6"
+        android:backgroundTint="#673AB7"
         android:textSize="20sp"
-        android:text="Sign up" />
+        android:text="회원가입"
+        android:fontFamily="@font/cookierunblack"/>
 
     <TextView
         android:id="@+id/tvBackLogin"
@@ -73,5 +79,6 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:gravity="center_horizontal"
-        android:text="Back to Login " />
+        android:text="로그인화면으로 돌아가기 "
+        android:fontFamily="@font/cookierunblack"/>
 </LinearLayout>

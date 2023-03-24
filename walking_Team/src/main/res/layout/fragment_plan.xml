@@ -10,6 +10,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:text="나의공간 페이지 입니다."
-        android:textSize="30sp"/>
+        android:textSize="30sp"
+        android:fontFamily="@font/cookierunblack"/>
 
 </FrameLayout>

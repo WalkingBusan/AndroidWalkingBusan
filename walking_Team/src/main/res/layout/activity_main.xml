@@ -16,7 +16,7 @@
         <androidx.appcompat.widget.Toolbar
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
-            android:background="#619CD6"
+            android:background="#673AB7"
             app:titleTextColor="#ffffff"
             android:id="@+id/toolbar" />
 
@@ -43,9 +43,9 @@
                 android:layout_height="45dp"
                 android:layout_alignParentBottom="true"
                 app:tabBackground="@drawable/tab_selector"
-                app:tabIndicatorColor="#619CD6"
+                app:tabIndicatorColor="#673AB7"
                 app:tabSelectedTextColor="#ffffff"
-                app:tabTextColor="#619CD6">
+                app:tabTextColor="#673AB7">
 
 <!--                <com.google.android.material.tabs.TabItem-->
 <!--                    android:layout_width="wrap_content"-->
