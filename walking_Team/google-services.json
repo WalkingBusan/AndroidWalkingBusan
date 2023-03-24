@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "479950645191",
+    "project_id": "walkingbusan-2f78e",
+    "storage_bucket": "walkingbusan-2f78e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:479950645191:android:632a42bd27073a745edbe2",
+        "android_client_info": {
+          "package_name": "com.example.walking"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "479950645191-t0cnjrufvvvbepf6hnkh5rrkb7jv20mj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.walking",
+            "certificate_hash": "b30ee20d344c0d111f103b112935ee2f0477407a"
+          }
+        },
+        {
+          "client_id": "479950645191-ugipblcihvkb4np5oafegvec511f41fr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC67z721lPrPY_CcG7brmrAKKgu1Nk0SZw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "479950645191-ugipblcihvkb4np5oafegvec511f41fr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
