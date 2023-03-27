@@ -1,11 +1,11 @@
-package com.example.walking
+package com.example.walking4
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
-import com.example.walking.databinding.ActivityRegisterBinding
-import com.example.walking.model.User
+import com.example.walking4.databinding.ActivityRegisterBinding
+import com.example.walking4.model.User
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response

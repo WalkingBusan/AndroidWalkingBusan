@@ -1,13 +1,13 @@
-package com.example.walking.fragment
+package com.example.walking4.fragment
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import com.example.walking.databinding.FragmentBoardBinding
+import com.example.walking4.databinding.FragmentMainBinding
 
-class BoardFragment : Fragment() {
+class MainFragment : Fragment() {
 
 
     override fun onCreateView(
@@ -15,7 +15,7 @@ class BoardFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        val binding = FragmentBoardBinding.inflate(inflater, container, false)
+        val binding = FragmentMainBinding.inflate(inflater, container, false)
         return binding.root
     }
 

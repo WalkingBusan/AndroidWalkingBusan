@@ -1,11 +1,9 @@
-package com.example.walking
+package com.example.walking4
 
 import android.annotation.SuppressLint
 import android.content.Context
-import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.telecom.Call
 import android.util.Log
 import android.view.Menu
 import android.view.MenuItem
@@ -13,9 +11,9 @@ import android.widget.Toast
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentActivity
 import androidx.viewpager2.adapter.FragmentStateAdapter
-import com.example.walking.databinding.ActivityMainBinding
-import com.example.walking.fragment.*
-import com.example.walking.model.User
+import com.example.walking4.databinding.ActivityMainBinding
+import com.example.walking4.fragment.*
+import com.example.walking4.model.User
 //import com.android4.travel.model.TripListModel
 //import com.android4.travel.model.User
 import com.google.android.material.tabs.TabLayout
@@ -249,7 +247,7 @@ class MainViewPagerAdapter(fragment: FragmentActivity) : FragmentStateAdapter(fr
         return when (position) {
             0 -> MainFragment()
             1 -> BoardFragment()
-            2 -> GroupFragment()
+            2 -> MeetingFragment()
             3 -> PhotoFragment()
             else -> PlanFragment()
         }

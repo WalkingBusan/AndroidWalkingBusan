@@ -1,41 +1,41 @@
 {
   "project_info": {
-    "project_number": "479950645191",
-    "project_id": "walkingbusan-2f78e",
-    "storage_bucket": "walkingbusan-2f78e.appspot.com"
+    "project_number": "744476433990",
+    "project_id": "walkbusan-aa5d0",
+    "storage_bucket": "walkbusan-aa5d0.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:479950645191:android:632a42bd27073a745edbe2",
+        "mobilesdk_app_id": "1:744476433990:android:e70616f75f393c35a27447",
         "android_client_info": {
-          "package_name": "com.example.walking"
+          "package_name": "com.example.walking4"
         }
       },
       "oauth_client": [
         {
-          "client_id": "479950645191-t0cnjrufvvvbepf6hnkh5rrkb7jv20mj.apps.googleusercontent.com",
+          "client_id": "744476433990-ls5mc39h90o7g032349j7peeg2us4sir.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.example.walking",
+            "package_name": "com.example.walking4",
             "certificate_hash": "b30ee20d344c0d111f103b112935ee2f0477407a"
           }
         },
         {
-          "client_id": "479950645191-ugipblcihvkb4np5oafegvec511f41fr.apps.googleusercontent.com",
+          "client_id": "744476433990-6qn8efuv8m84l9lkf63430gg3ngrco17.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyC67z721lPrPY_CcG7brmrAKKgu1Nk0SZw"
+          "current_key": "AIzaSyA0tjRvn90gJm_laM6lheT__PkdXdQa74g"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "479950645191-ugipblcihvkb4np5oafegvec511f41fr.apps.googleusercontent.com",
+              "client_id": "744476433990-6qn8efuv8m84l9lkf63430gg3ngrco17.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

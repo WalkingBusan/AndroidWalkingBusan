@@ -1,4 +1,4 @@
-package com.example.walking
+package com.example.walking4
 
 import android.content.Context
 import android.content.Intent
@@ -6,9 +6,9 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 
 import android.util.Log
-import com.example.walking.databinding.ActivityLoginBinding
-import com.example.walking.model.LoginDto
-import com.example.walking.model.User
+import com.example.walking4.databinding.ActivityLoginBinding
+import com.example.walking4.model.LoginDto
+import com.example.walking4.model.User
 import com.google.firebase.database.DataSnapshot
 import com.google.firebase.database.DatabaseError
 import com.google.firebase.database.FirebaseDatabase

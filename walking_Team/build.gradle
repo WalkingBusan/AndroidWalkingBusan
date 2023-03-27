@@ -5,11 +5,11 @@ plugins {
 }
 
 android {
-    namespace 'com.example.walking'
+    namespace 'com.example.walking4'
     compileSdk 33
 
     defaultConfig {
-        applicationId "com.example.walking"
+        applicationId "com.example.walking4"
         minSdk 24
         targetSdk 33
         versionCode 1

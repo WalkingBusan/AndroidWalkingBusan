@@ -1,12 +1,11 @@
-package com.example.walking
+package com.example.walking4
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Handler
-import androidx.core.content.ContextCompat.startActivity
 import com.bumptech.glide.Glide
-import com.example.walking.databinding.ActivitySplashBinding
+import com.example.walking4.databinding.ActivitySplashBinding
 
 class SplashActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

@@ -1,4 +1,4 @@
-package com.example.walking
+package com.example.walking4
 
 import android.app.Application
 import retrofit2.Retrofit
