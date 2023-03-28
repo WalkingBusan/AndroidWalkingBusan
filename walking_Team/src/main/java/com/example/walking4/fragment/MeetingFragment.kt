@@ -9,7 +9,7 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.DividerItemDecoration
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.example.walking4.InputActivity
+import com.example.walking4.InputMeetingActivity
 import com.example.walking4.MyApplication
 import com.example.walking4.adapter.MeetingListAdapter
 import com.example.walking4.databinding.FragmentMeetingBinding
@@ -63,7 +63,7 @@ class MeetingFragment : Fragment() {
                             val meetingList = response.body()
                             Log.d(TAG, "$meetingList")
 
-                            adapter = MeetingListAdapter(this@MeetingFragment, meetingList?.meetings, nickname)
+                            adapter = MeetingListAdapter(this@MeetingFragment, meetingList?.meetings, nickname, username)
                             adapter.notifyDataSetChanged()
 
                             binding.meetingListRecyclerView.adapter = adapter
@@ -99,7 +99,7 @@ class MeetingFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         binding.addmeetingfab.setOnClickListener {
-            val intent = Intent(context, InputActivity::class.java)
+            val intent = Intent(context, InputMeetingActivity::class.java)
 
             startActivity(intent)
         }

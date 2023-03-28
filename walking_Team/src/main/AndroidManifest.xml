@@ -17,7 +17,7 @@
         android:theme="@style/Theme.WalkingBusan"
         android:usesCleartextTraffic="true">
         <activity
-            android:name=".InputActivity"
+            android:name=".InputMeetingActivity"
             android:exported="false" />
         <activity
             android:name=".ChatActivity"

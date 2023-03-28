@@ -24,5 +24,12 @@ interface INetworkService {
     fun doGetMeetingList(): Call<MeetingListModel>
 
     @GET("walking/meeting/oneMeeting")
-    fun doGetOneMeeting(@Query("title")title:String?): Call<Meeting>
+    fun doGetOneMeeting(@Query("title") title:String?): Call<Meeting>
+
+    @POST("walking/meeting/insert")
+    fun doInsertMeeting(@Body meeting: Meeting?): Call<Meeting>
+
+    @POST("walking/meeting/insertuserinmeeting")
+    fun doInsertUserinmeeting(@Body userinmeeting: Userinmeeting)
+
 }

@@ -78,16 +78,16 @@ class ChatActivity : AppCompatActivity() {
             override fun onResponse(call: Call<Meeting>, response: Response<Meeting>) {
                 var meeting = response.body()
 
-                var check = meeting?.start_date?:0
-                Log.d("chc", "${convertLongToDate(check)}=========================")
-                var dates = arrayListOf<Long>()
-
-                do {
-                    dates.add(check)
-
-                    check += 86400000L
-
-                } while( check <= (meeting?.end_date?:0))
+//                var check = meeting?.start_date?:0
+//                Log.d("chc", "${check}=========================")
+//                var dates = arrayListOf<Long>()
+//
+//                do {
+//                    dates.add(check)
+//
+//                    check += 86400000L
+//
+//                } while( check <= (meeting?.end_date?:0))
 
                 val layoutManager = LinearLayoutManager(this@ChatActivity)
 
@@ -347,16 +347,7 @@ class ChatActivity : AppCompatActivity() {
             })
     }
 
-    private fun convertLongToDate(time: Long):String {
 
-        val date = Date(time)
-        val format = SimpleDateFormat(
-            "MM.dd",
-            Locale.getDefault()
-        )
-
-        return format.format(date)
-    }
 
 
 
